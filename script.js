@@ -1,4 +1,3 @@
-/** @format */
 function currentDayAndTime() {
   const date = new Date();
   const weekdays = [
@@ -20,10 +19,10 @@ function currentDayAndTime() {
   today.innerHTML = "Today is: " + dayOfWeek;
   const Time = document.getElementById("currentUTCTime");
   Time.innerHTML = currentUTCTime;
-  }
+}
+
+// Update every 100 milliseconds (0.1 seconds)
+setInterval(currentDayAndTime, 100); 
   
-  // Update every 100 milliseconds (0.1 seconds)
-  setInterval(currentDayAndTime, 100); 
-  
-  // Call the function initially
-  currentDayAndTime();
+// Call the function initially
+currentDayAndTime();

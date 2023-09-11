@@ -11,10 +11,14 @@
 
 #githubURL {
   text-decoration: none;
+  color: #007acc;
 }
 
 #slackDisplayImage {
   width: 20%;
+  max-width: 150px; 
   border: 2px solid #005662;
-  border-radius: 40%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
